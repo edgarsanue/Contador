@@ -5,18 +5,19 @@
     
 }
 
-body {
-    background-image: url(./pexels-aleksandar-pasaric-356286.jpeg);
-    background-size: 100%;
-    text-align: center;
-}
 
 .container {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./pexels-aleksandar-pasaric-356286.jpeg);
+    background-size: cover;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 3rem;
-    margin-top: 4rem;
+    
 }
 
 h1 {
@@ -55,6 +56,7 @@ button:active {
 }
 
 h3 {
+    text-align: center;
     font-size: 1.9rem;
     color: white;
     width: 25rem;
